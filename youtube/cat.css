@@ -1,0 +1,20 @@
+.cat{
+    width:300px;
+    margin-right:50px;
+    
+}
+.square{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    object-position:center;
+    margin-right:100px;
+}
+.rond{
+    margin-top:50px;
+    width:300Px;
+    height:300Px;
+    object-fit:cover;
+    object-position:left;
+    border-radius:200px;
+}

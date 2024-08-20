@@ -1,0 +1,64 @@
+.flexbox1{
+    display:flex;
+    flex-direction:row;
+    margin-bottom:20px;
+}
+.div1{
+    width:200px;
+    background-color:lightpink;
+}
+.div2{
+    width:75px;
+    background-color:lightblue;
+}
+.flexbox2{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+}
+.i1{
+    background-color:lightblue;
+    width:50px;
+}
+.i2{
+    background-color:lightpink;
+    flex:1;
+}
+.i3{
+    background-color:lightblue;
+    width:75px;
+}
+.flexbox3{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.it1{
+    background-color:lightpink;
+}
+.it2{
+    background-color:lightpink;
+}
+.it3{
+    background-color:lightpink;
+}
+.it4{
+    background-color:lightpink;
+}
+.flexbox4{
+    display:flex;
+    flex-direction:row;
+    margin-top:50px;
+    justify-content:space-between;
+    border-width:1px;
+    border-style:solid;
+    height:50px;
+    align-items:center;
+    border-color:gray;
+}
+.item1{
+    background-color:lightpink;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <title>grid2</title>
+    <head>
+     <style>
+        .div-grid{
+            display:grid;
+            grid-template-columns:200px 75px;
+            margin-top:30px;
+        }
+        .div2-grid{
+            display:grid;
+            grid-template-columns:50px 1fr 75px;
+            margin-top:50px;
+            margin-bottom:50px;
+        }
+        .columns{
+            display:grid;
+            grid-template-columns:1fr 1fr 1fr 1fr;
+            column-gap:20px;
+            row-gap:10px;
+            
+
+
+            
+        }
+        .cols{
+           background-color:pink;
+           
+        }
+     </style>
+    </head>
+    <body>
+        <div class="div-grid" style="display:grid;">
+            <div class="div1" style="background-color:pink;
+            display:grid;">
+                <p>200px</p>
+            </div >
+            <div class="div2" style="background-color:lightblue;
+            display:grid;">
+                <p>
+                    75px
+                </p>
+            </div>
+        </div>
+        <div class="div2-grid">
+            <div style="background-color:pink;
+                       
+            ">col 1</div>
+            <div style="background-color:lightblue;">col 2</div>
+            <div style="background-color:pink;
+            ">col 3</div>
+        </div>
+       
+       
+       
+        <div class="columns">
+            <div class="cols">
+                
+                    col1
+                
+            </div>
+
+            <div class="cols">
+                col2
+            </div>
+
+            <div class="cols">
+                
+                    col3
+                
+            </div>
+
+            <div class="cols">
+                
+                    col4
+                
+            </div>
+        
+            
+                <div class="cols">
+                    
+                        col5
+                    
+                </div>
+    
+                <div class="cols">
+                    
+                        col6
+                    
+                </div>
+    
+                <div class="cols">
+                    
+                        col7
+                    
+                </div>
+
+                <div class="cols">
+                    
+                        col8
+                    
+                </div>
+         </div>
+            
+
+        
+    </body>
+</html>
